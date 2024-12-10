@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+.a {
+    text-decoration: none;
+  
+}
+
+.ahover{
+    color:red;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%; 
+    gap: 0px; 
+    height: 100vh;
+    grid-auto-rows: minmax(10,auto);
+ }
+
+
+ .item {
+    box-shadow: 0 0 0 0.5px black;
+    padding: 10px;
+}
+
+
+.item_1 {
+    background-color: #a81d1d;
+    grid-column: 1 / 4; 
+    height: 13.5vh;
+}
+
+.item_2 {
+    background-color: #ffb223;
+    grid-column: 1 / 2; 
+    grid-row: 2;
+    height: 72.5vh;
+    width: 100%; 
+    font-size: 30px;
+    align-content: center;
+}
+
+
+.item_2 ul{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.item_3 {
+    background-color: #ffb223;
+    grid-column: 2 / 3; 
+    grid-row: 2; 
+    height: 7vh;
+    justify-self: center;
+    width: 100%; 
+    text-align: center;
+}
+
+
+.item_4 {
+    background-color: #ffb223;
+    grid-column: 3 / 4;
+    grid-row: 2;
+    height: 59vh;
+    width: 100%;
+}
+
+
+.item_4 ul{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+
+.item_4 h2 {
+    font-size: 30px;
+}
+
+
+.item_5 {
+    background-color: #ffb223;
+    grid-column: 2 / 3;
+    grid-row: 2;
+    align-self: end;
+    height: 65.5vh;
+    width: 100%;
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.item_5 img {
+    width: 90vh;
+    object-fit: contain; 
+}
+
+
+
+.item_6 {
+    background-color: #ffb223;
+    grid-column: 3 / 4;
+    grid-row: 2;
+    align-self: end;
+    height: 13.5vh;
+    width: 100%; 
+    font-size: 25px;
+    align-content: center ;
+}
+
+
+
+.item_7 {
+    background-color: #a81d1d;
+    grid-column: 1 / 4; 
+    height: 14vh;
+    text-align: center;
+    
+}
+
+
+
+.item_7 h1 {
+    margin: 0;
+    text-align: end;
+    font-size: 30px;
+}
+
+.item_7 p{
+    font-size:20px
+}
+
+
+.item_5 img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+
+
